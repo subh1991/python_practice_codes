@@ -150,6 +150,33 @@ def main():
 	linkedList2.add_node_after_nth_node(2, 21)
 	linkedList2.print_linked_list()	
 
+def main2():
+	linkedList = LinkedList()
+	retval = linkedList.add_node_at_end(1)
+	retval = linkedList.add_node_at_end(2)
+	retval = linkedList.add_node_at_end(3)
+	retval = linkedList.add_node_at_end(4)
+	retval = linkedList.add_node_at_end(5)
+	retval = linkedList.add_node_at_end(6)
+	retval = linkedList.add_node_at_end(7)
+	linkedList.print_linked_list()
+
 
 if __name__ == '__main__':
-	main()
+	main2()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
